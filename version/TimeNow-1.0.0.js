@@ -1,5 +1,6 @@
 const Info = {
     "version": "1.0.0",
+    "pluginLoader":["1.0.0"],
     "name": "TimeNow",
     "author": "whes1015"
 }
