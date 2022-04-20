@@ -1,3 +1,5 @@
+'use strict'
+
 const Info = {
     "version": "1.0.1",
     "pluginLoader":["1.X.X"],
