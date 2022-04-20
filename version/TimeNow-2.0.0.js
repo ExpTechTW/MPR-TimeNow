@@ -15,8 +15,8 @@ const Plugin={
     }
     ],
     "author": [whes1015],
-    "link":""
-    "resources":["AGPL-3.0"]
+    "link":"",
+    "resources":["AGPL-3.0"],
     "description":"顯示現在時間"
 }
 
