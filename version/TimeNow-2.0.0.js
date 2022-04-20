@@ -4,7 +4,7 @@ const Plugin = {
     "name": "TimeNow",
     "version": "2.0.0",
     "depends": {
-        "pluginLoader": "2.1.X"
+        "pluginLoader": "2.2.X"
     },
     "Events": ["messageCreate"],
     "Commands": [
