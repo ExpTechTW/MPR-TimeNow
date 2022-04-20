@@ -1,6 +1,6 @@
 'use strict'
 
-{
+const Plugin={
     "name": "TimeNow",
     "version": "2.0.0",
     "depends":{
