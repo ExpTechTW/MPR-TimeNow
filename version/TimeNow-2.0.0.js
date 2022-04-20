@@ -4,6 +4,7 @@ const Plugin = {
     "name": "TimeNow",
     "version": "2.0.0",
     "depends": {
+        "index": "1.X.X",
         "pluginLoader": "2.X.X",
     },
     "Events": ["messageCreate"],
@@ -31,7 +32,7 @@ async function messageCreate(client, message) {
             " " + now.getHours() +
             ":" + now.getMinutes() +
             ":" + now.getSeconds()
-        message.reply(await pluginLoader.embed(Now, null, Info.author, "https://raw.githubusercontent.com/ExpTechTW/API/%E4%B8%BB%E8%A6%81%E7%9A%84-(main)/image/Icon/ExpTech.png"))
+        message.reply(await pluginLoader.embed(Now, null, Plugin.author, "https://raw.githubusercontent.com/ExpTechTW/API/%E4%B8%BB%E8%A6%81%E7%9A%84-(main)/image/Icon/ExpTech.png"))
     }
 }
 
