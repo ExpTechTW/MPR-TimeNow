@@ -25,7 +25,7 @@ const pluginLoader = require('../Core/pluginLoader')
 async function messageCreate(client, message) {
     if (message.content == "$time now") {
         let utc = new Date()
-        let now = new Date(utc.getTime() + utc.getTimezoneOffset() * 60 + 60 * 60 * 8)
+        let now = new Date(utc.getTime() + utc.getTimezoneOffset() * 60 * 1000 + 60 * 60 * 8 * 1000)
         let Now = now.getFullYear() +
             "/" + (now.getMonth() + 1) +
             "/" + now.getDate() +
