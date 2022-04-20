@@ -37,8 +37,6 @@ async function messageCreate(client, message) {
 }
 
 module.exports = {
-    Info,
-    Commands,
-    Event,
+    Plugin,
     messageCreate
 }
