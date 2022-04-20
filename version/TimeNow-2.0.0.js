@@ -14,7 +14,7 @@ const Plugin={
         "note": "查看現在時間"
     }
     ],
-    "author": [whes1015],
+    "author": ["whes1015"],
     "link":"https://github.com/ExpTechTW/MPR-TimeNow",
     "resources":["AGPL-3.0"],
     "description":"顯示現在時間"
