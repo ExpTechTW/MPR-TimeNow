@@ -32,7 +32,7 @@ async function messageCreate(client, message) {
             " " + now.getHours() +
             ":" + now.getMinutes() +
             ":" + now.getSeconds()
-        message.reply(await pluginLoader.embed(Now, null, Plugin.author, "https://raw.githubusercontent.com/ExpTechTW/API/%E4%B8%BB%E8%A6%81%E7%9A%84-(main)/image/Icon/ExpTech.png"))
+        message.reply(await pluginLoader.embed(Now, null, Plugin.author.toString().replaceAll(",", " "), "https://raw.githubusercontent.com/ExpTechTW/API/%E4%B8%BB%E8%A6%81%E7%9A%84-(main)/image/Icon/ExpTech.png"))
     }
 }
 
